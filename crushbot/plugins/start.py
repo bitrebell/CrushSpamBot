@@ -29,15 +29,15 @@ async def start(e):
             sudo_user = "False"
         ON_START = f"""
 Hey {mention},
-This is Crush Spam Bot.
-A Powerfull Spam Bot With a
-large abusive database.
-So,enjoy the Game!!😈😈
-***---------------------***
+    This is Crush Spam Bot.
+    A Powerfull Spam Bot With a
+    large abusive database.
+    So,enjoy the Game!!😈😈
+***---------------------------------------***
 Owner:- {myOwner}
-***---------------------***
+***---------------------------------------***
 Sudo:- {sudo_user}
-***---------------------***
+***---------------------------------------***
 Creator:- {creator}
     """
         await e.client.send_file(e.chat_id, DISPLAY_PIC, caption=ON_START, buttons=data)
