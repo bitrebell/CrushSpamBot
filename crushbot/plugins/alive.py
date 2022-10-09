@@ -16,6 +16,8 @@ Bot Version:- `{BOT_VERSION}`
 
 Telethon Version:- `{version.__version__}`
 
+Moi God:- f"[Aadil](tg://user?id={5106664049})
+
 {BIO_MSG}
 """
 
