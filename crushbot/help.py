@@ -5,19 +5,19 @@ from telethon import events, Button
 
 
 Buttons = [
-    Button.inline("Alive", b'alive'),
-    Button.inline("Ping", b'ping')
+    Button.inline("𝗔𝗟𝗜𝗩𝗘", b'alive'),
+    Button.inline("𝗣𝗜𝗡𝗚", b'ping')
 ], [
-    Button.inline("Raid", b'raid'),
-    Button.inline("Reply Raid", b'replyraid')
+    Button.inline("𝗥𝗔𝗜𝗗", b'raid'),
+    Button.inline("𝗥𝗘𝗣𝗟𝗬 𝗥𝗔𝗜𝗗", b'replyraid')
 ], [
-    Button.inline("Spam", b'spam'),
-    Button.inline("Pspam", b'pspam')
+    Button.inline("𝗦𝗣𝗔𝗠", b'spam'),
+    Button.inline("𝗣𝗦𝗣𝗔𝗠", b'pspam')
 ], [
-    Button.inline("Extras", b'extras')
+    Button.inline("𝐄𝐗𝐓𝐑𝐀𝐒", b'extras')
 ], [
-    Button.url("Channel", "t.me/crushbot_support"),
-    Button.url("Group", "t.me/zgarmy1")
+    Button.url("𝐂𝐇𝐀𝐍𝐍𝐄𝐋", "t.me/crushbot_support"),
+    Button.url("𝐆𝐑𝐎 𝐔𝐏", "t.me/zgarmy1")
 ]
 
 BACK = [
@@ -31,7 +31,7 @@ BACK = [
 @CrushBot5.on(events.NewMessage(incoming=True, pattern='/help'))
 async def help(e):
     if e.sender_id in MY_USERS:
-        message = await e.client.send_file(e.chat_id, DISPLAY_PIC, caption="This Is Help Command!!!", buttons=Buttons)
+        message = await e.client.send_file(e.chat_id, DISPLAY_PIC, caption="𝐇𝐄𝐘!! 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐂𝐑𝐔𝐒𝐇𝐒 𝐒𝐏𝐀𝐌𝐁𝐎𝐓. 𝐓𝐇𝐈𝐒 𝐈𝐒 𝐘𝐎 𝐔𝐑 𝐇𝐄𝐋𝐏 𝐂𝐎𝐌𝐌𝐀𝐍𝐃!!!", buttons=Buttons)
 
         
 
