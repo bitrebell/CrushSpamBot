@@ -17,7 +17,7 @@ Buttons = [
     Button.inline("Extras", b'extras')
 ], [
     Button.url("Channel", "t.me/crushbot_support"),
-    Button.url("Group", "t.me/crushbot_support")
+    Button.url("Group", "t.me/zgarmy1")
 ]
 
 BACK = [
