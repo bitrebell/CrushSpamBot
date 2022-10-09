@@ -16,4 +16,4 @@ async def ping(e):
         message = await e.client.send_message(e.chat_id, "`Pinging.....!`")
         after = datetime.now()
         ms = (after - before).microseconds / 1000
-        await e.client.edit_message(message, PING_PIC, f"𝐏𝐈𝐍𝐆 𝐏𝐎𝐍𝐆!!!\n***--------------***\n𝐂𝐑𝐔𝐒𝐇 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓\n***--------------***\n𝒎𝒚 𝒎𝒂𝒔𝒕𝒆𝒓:- [{OWNER_NAME}](tg://user?id={OWNER_ID})\n***--------------***\n𝐏𝐈𝐍𝐆!!:- {ms} ms\n***--------------***\n𝐂𝐑𝐔𝐒𝐇 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓 𝐎𝐍 𝐅𝐈𝐑𝐄༗.")
+        await e.client.edit_message(message, f" {PING_PIC}\n𝐏𝐈𝐍𝐆 𝐏𝐎𝐍𝐆!!!\n***--------------***\n𝐂𝐑𝐔𝐒𝐇 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓\n***--------------***\n𝒎𝒚 𝒎𝒂𝒔𝒕𝒆𝒓:- [{OWNER_NAME}](tg://user?id={OWNER_ID})\n***--------------***\n𝐏𝐈𝐍𝐆!!:- {ms} ms\n***--------------***\n𝐂𝐑𝐔𝐒𝐇 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓 𝐎𝐍 𝐅𝐈𝐑𝐄༗.")
