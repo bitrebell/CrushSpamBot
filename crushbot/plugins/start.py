@@ -5,8 +5,6 @@ from telethon import events, Button
 
 data  = [
     Button.url("Channel", url="t.me/crushbot_support"),
-]
-[  
     Button.url("Repo", url="https://GitHub.com/Darkranger00/"),
     Button.url("Group", url="https://t.me/zgarmy1")
 ]
