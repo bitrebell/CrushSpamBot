@@ -3,6 +3,7 @@ from crushbot import CrushBot1, CrushBot2, CrushBot3, CrushBot4, CrushBot5
 from crushbot.helpers.commands import *
 from telethon import events, Button
 
+DISPLAY_PICS = "https://te.legra.ph/file/34e099ab7e10d6b65aa04.jpg"
 
 Buttons = [
     Button.inline("𝗔𝗟𝗜𝗩𝗘", b'alive'),
@@ -31,7 +32,7 @@ BACK = [
 @CrushBot5.on(events.NewMessage(incoming=True, pattern='/help'))
 async def help(e):
     if e.sender_id in MY_USERS:
-        message = await e.client.send_file(e.chat_id, DISPLAY_PIC, caption="𝐇𝐄𝐘!! 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐂𝐑𝐔𝐒𝐇𝐒 𝐒𝐏𝐀𝐌𝐁𝐎𝐓. 𝐓𝐇𝐈𝐒 𝐈𝐒 𝐘𝐎 𝐔𝐑 𝐇𝐄𝐋𝐏 𝐂𝐎𝐌𝐌𝐀𝐍𝐃!!!", buttons=Buttons)
+        message = await e.client.send_file(e.chat_id, DISPLAY_PICS, caption="𝐇𝐄𝐘!! 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐂𝐑𝐔𝐒𝐇𝐒 𝐒𝐏𝐀𝐌𝐁𝐎𝐓. 𝐓𝐇𝐈𝐒 𝐈𝐒 𝐘𝐎 𝐔𝐑 𝐇𝐄𝐋𝐏 𝐂𝐎𝐌𝐌𝐀𝐍𝐃!!!", buttons=Buttons)
 
         
 
