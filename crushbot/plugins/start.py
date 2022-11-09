@@ -21,7 +21,7 @@ async def start(e):
         user_id = e.sender_id
         mention = f"[{name}](tg://user?id={user_id})"
         myOwner = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
-        creator = f"[Aadil](tg://user?id={5106664049})"
+        creator = f"[Aadil](tg://user?id={5652782615})"
         sudo_user = ""
         if e.sender_id in MY_USERS:
             sudo_user = "True"
@@ -41,4 +41,3 @@ Sudo:- {sudo_user}
 Creator:- {creator}
     """
         await e.client.send_file(e.chat_id, DISPLAY_PIC, caption=ON_START, buttons=data)
-
